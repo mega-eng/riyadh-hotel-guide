@@ -1,0 +1,82 @@
+{
+ "synthetic_heldout": {
+  "n": 3000,
+  "service_acc_non_brand": 0.9995147986414362,
+  "sort_acc": 0.9996666666666667,
+  "count_acc": 0.993,
+  "distance_acc": 0.9956666666666667,
+  "rating_acc": 1,
+  "hotel_span_f1": 0.9900391319815013,
+  "tag_token_acc": 0.9909929945513177,
+  "brand_detect_f1_unseen_brands": 0.9951845906902087
+ },
+ "handwritten": {
+  "n": 36,
+  "service": 36,
+  "sort": 36,
+  "count": 36,
+  "distance": 36,
+  "rating": 36,
+  "hotel_top1": 36,
+  "hotel_top3": 36,
+  "hotel_n": 36,
+  "hotel_in_gold_pool": 0
+ },
+ "brand_queries": {
+  "n": 26,
+  "brand_ok": 23,
+  "hotel_ok": 26,
+  "slots_ok": 5,
+  "slots_n": 5,
+  "no_false_brand_ok": 3,
+  "no_false_brand_n": 3
+ },
+ "v3_features": {
+  "n": 34,
+  "ok": 34,
+  "checks": 96,
+  "passed": 96,
+  "false_alarms": {
+   "near": 0,
+   "unsup": 0,
+   "n": 3036
+  }
+ },
+ "v4_trip_and_places": {
+  "n": 22,
+  "ok": 22,
+  "checks": 57,
+  "passed": 57,
+  "false_alarms_on_old_sentences": {
+   "trip": 0,
+   "attr": 0,
+   "n": 3062
+  }
+ },
+ "matcher": {
+  "arabic_spellings_no_aliases": {
+   "n": 73,
+   "model_top1": 0.8904109589041096,
+   "model_top3": 0.9726027397260274,
+   "baseline_top1": 0.0958904109589041
+  },
+  "latin_typos_no_aliases": {
+   "n": 73,
+   "model_top1": 0.9178082191780822,
+   "model_top3": 0.9863013698630136,
+   "baseline_top1": 0.0273972602739726
+  },
+  "arabic_spellings_deployed": {
+   "n": 73,
+   "model_top1": 1,
+   "model_top3": 1,
+   "baseline_top1": 0.0958904109589041
+  },
+  "latin_typos_deployed": {
+   "n": 73,
+   "model_top1": 0.863013698630137,
+   "model_top3": 0.9863013698630136,
+   "baseline_top1": 0.0273972602739726
+  }
+ }
+}
